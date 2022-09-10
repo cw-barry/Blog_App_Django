@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # my apps
     'users',
+    'blog',
     # third_party
     'crispy_forms',
 ]
@@ -132,7 +133,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-# LOGIN_REDIRECT_URL = "blog:list"
+LOGIN_REDIRECT_URL = "blog:list"
 
 LOGIN_URL = "login"
 
